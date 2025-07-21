@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XCHXkoe9Cto=",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\library\\LibraryAPI\\Books.Application\\Books.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tomer Vaknin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0-preview.6.25358.103\\microsoft.extensions.dependencyinjection.abstractions.10.0.0-preview.6.25358.103.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.API", "Books.API\Books.API.csproj", "{71AD9207-1852-44C2-832E-69B807A1766C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Application", "Books.Application\Books.Application.csproj", "{8D15B220-D6A2-43E4-8B5E-1184FBDFD5EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Contracts", "Books.Contracts\Books.Contracts.csproj", "{746D00DD-C199-4F1E-AA00-F6F1377FBDD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71AD9207-1852-44C2-832E-69B807A1766C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AD9207-1852-44C2-832E-69B807A1766C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AD9207-1852-44C2-832E-69B807A1766C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AD9207-1852-44C2-832E-69B807A1766C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D15B220-D6A2-43E4-8B5E-1184FBDFD5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D15B220-D6A2-43E4-8B5E-1184FBDFD5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D15B220-D6A2-43E4-8B5E-1184FBDFD5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D15B220-D6A2-43E4-8B5E-1184FBDFD5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746D00DD-C199-4F1E-AA00-F6F1377FBDD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746D00DD-C199-4F1E-AA00-F6F1377FBDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746D00DD-C199-4F1E-AA00-F6F1377FBDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746D00DD-C199-4F1E-AA00-F6F1377FBDD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+C:\Projects\library\LibraryAPI\Books.Application\bin\Debug\net9.0\Books.Application.deps.json
+C:\Projects\library\LibraryAPI\Books.Application\bin\Debug\net9.0\Books.Application.dll
+C:\Projects\library\LibraryAPI\Books.Application\bin\Debug\net9.0\Books.Application.pdb
+C:\Projects\library\LibraryAPI\Books.Application\obj\Debug\net9.0\Books.Application.csproj.AssemblyReference.cache
+C:\Projects\library\LibraryAPI\Books.Application\obj\Debug\net9.0\Books.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\library\LibraryAPI\Books.Application\obj\Debug\net9.0\Books.Application.AssemblyInfoInputs.cache
+C:\Projects\library\LibraryAPI\Books.Application\obj\Debug\net9.0\Books.Application.AssemblyInfo.cs
+C:\Projects\library\LibraryAPI\Books.Application\obj\Debug\net9.0\Books.Application.csproj.CoreCompileInputs.cache
+C:\Projects\library\LibraryAPI\Books.Application\obj\Debug\net9.0\Books.Application.dll
+C:\Projects\library\LibraryAPI\Books.Application\obj\Debug\net9.0\refint\Books.Application.dll
+C:\Projects\library\LibraryAPI\Books.Application\obj\Debug\net9.0\Books.Application.pdb
+C:\Projects\library\LibraryAPI\Books.Application\obj\Debug\net9.0\ref\Books.Application.dll

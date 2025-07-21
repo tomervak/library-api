@@ -1,0 +1,11 @@
+C:\Projects\library\LibraryAPI\Books.Contracts\bin\Debug\net9.0\Books.Contracts.deps.json
+C:\Projects\library\LibraryAPI\Books.Contracts\bin\Debug\net9.0\Books.Contracts.dll
+C:\Projects\library\LibraryAPI\Books.Contracts\bin\Debug\net9.0\Books.Contracts.pdb
+C:\Projects\library\LibraryAPI\Books.Contracts\obj\Debug\net9.0\Books.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\library\LibraryAPI\Books.Contracts\obj\Debug\net9.0\Books.Contracts.AssemblyInfoInputs.cache
+C:\Projects\library\LibraryAPI\Books.Contracts\obj\Debug\net9.0\Books.Contracts.AssemblyInfo.cs
+C:\Projects\library\LibraryAPI\Books.Contracts\obj\Debug\net9.0\Books.Contracts.csproj.CoreCompileInputs.cache
+C:\Projects\library\LibraryAPI\Books.Contracts\obj\Debug\net9.0\Books.Contracts.dll
+C:\Projects\library\LibraryAPI\Books.Contracts\obj\Debug\net9.0\refint\Books.Contracts.dll
+C:\Projects\library\LibraryAPI\Books.Contracts\obj\Debug\net9.0\Books.Contracts.pdb
+C:\Projects\library\LibraryAPI\Books.Contracts\obj\Debug\net9.0\ref\Books.Contracts.dll

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RpaBcw6+jKw=",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\library\\LibraryAPI\\Books.API\\Books.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tomer Vaknin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.7\\microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+    "C:\\Users\\Tomer Vaknin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0-preview.6.25358.103\\microsoft.extensions.dependencyinjection.abstractions.10.0.0-preview.6.25358.103.nupkg.sha512",
+    "C:\\Users\\Tomer Vaknin\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
