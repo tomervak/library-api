@@ -9,3 +9,4 @@ C:\Projects\library\LibraryAPI\Books.Contracts\obj\Debug\net9.0\Books.Contracts.
 C:\Projects\library\LibraryAPI\Books.Contracts\obj\Debug\net9.0\refint\Books.Contracts.dll
 C:\Projects\library\LibraryAPI\Books.Contracts\obj\Debug\net9.0\Books.Contracts.pdb
 C:\Projects\library\LibraryAPI\Books.Contracts\obj\Debug\net9.0\ref\Books.Contracts.dll
+C:\Projects\library\LibraryAPI\Books.Contracts\obj\Debug\net9.0\Books.Contracts.sourcelink.json

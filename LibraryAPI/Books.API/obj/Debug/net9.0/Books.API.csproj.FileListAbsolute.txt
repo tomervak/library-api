@@ -35,3 +35,11 @@ C:\Projects\library\LibraryAPI\Books.API\obj\Debug\net9.0\refint\Books.API.dll
 C:\Projects\library\LibraryAPI\Books.API\obj\Debug\net9.0\Books.API.pdb
 C:\Projects\library\LibraryAPI\Books.API\obj\Debug\net9.0\Books.API.genruntimeconfig.cache
 C:\Projects\library\LibraryAPI\Books.API\obj\Debug\net9.0\ref\Books.API.dll
+C:\Projects\library\LibraryAPI\Books.API\obj\Debug\net9.0\Books.API.sourcelink.json
+C:\Projects\library\LibraryAPI\Books.API\bin\Debug\net9.0\Dapper.dll
+C:\Projects\library\LibraryAPI\Books.API\bin\Debug\net9.0\Npgsql.dll
+C:\Projects\library\LibraryAPI\Books.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projects\library\LibraryAPI\Books.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projects\library\LibraryAPI\Books.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projects\library\LibraryAPI\Books.API\bin\Debug\net9.0\FluentValidation.dll
+C:\Projects\library\LibraryAPI\Books.API\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll

@@ -1,22 +1,24 @@
+using Books.API.Mapping;
 using Books.Application;
-using Books.Application.Repositories;
+using Books.Application.Database;
 
 var builder = WebApplication.CreateBuilder(args);
+var config = builder.Configuration;
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 builder.Services.AddApplication();
+builder.Services.AddDatabase(config["Database:ConnectionString"]!);
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
@@ -40,7 +42,11 @@ app.MapGet("/weatherforecast", () =>
     })
     .WithName("GetWeatherForecast");
 
+app.UseMiddleware<ValidationMappingMiddleware>();
 app.MapControllers(); 
+
+var dbInitializer = app.Services.GetRequiredService<DbInitilaizer>();
+await dbInitializer.Initialize();
 
 app.Run();
 

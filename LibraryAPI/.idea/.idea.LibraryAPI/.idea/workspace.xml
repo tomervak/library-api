@@ -9,17 +9,93 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="009f9b08-730d-4bb7-97e6-0d6bb9010f6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Books.API/ApiEndpoints.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books.API/Controllers/BookController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books.API/Mapping/ContractMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books.Application/ApplicationServiceCollectionExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books.Application/Models/Book.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books.Application/Repositories/BookRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books.Application/Repositories/IBookRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books.Contracts/Requests/CreateBookRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books.Contracts/Requests/UpdateBookRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books.Contracts/Responses/BookResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books.Contracts/Responses/BooksResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Books.API/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Books.API/Mapping/ValidationMappingMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Books.Application/Database/DbInitilaizer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Books.Application/Database/IDbConnectionFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Books.Application/IApplicationMarker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Books.Application/Services/BookService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Books.Application/Services/IBookService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Books.Application/Validators/BookValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Books.Contracts/Responses/ValidationFailureResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LibraryAPI/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibraryAPI/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LibraryAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibraryAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/Books.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/Books.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/Controllers/BookController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/Controllers/BookController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.API.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Books.Contracts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Microsoft.OpenApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/Microsoft.OpenApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/bin/Debug/net9.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Books.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Books.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Books.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Books.API.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Books.API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Books.API.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/Books.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/ref/Books.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/ref/Books.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/refint/Books.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/refint/Books.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/Debug/net9.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Books.API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/ApplicationServiceCollectionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/ApplicationServiceCollectionExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/Books.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/Books.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/Models/Book.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/Models/Book.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/Repositories/BookRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/Repositories/BookRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/Repositories/IBookRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/Repositories/IBookRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/bin/Debug/net9.0/Books.Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/bin/Debug/net9.0/Books.Application.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/bin/Debug/net9.0/Books.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/bin/Debug/net9.0/Books.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/bin/Debug/net9.0/Books.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/bin/Debug/net9.0/Books.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/Books.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/Books.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/Books.Application.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/Books.Application.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/Books.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/ref/Books.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/ref/Books.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/refint/Books.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/Debug/net9.0/refint/Books.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Contracts/bin/Debug/net9.0/Books.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Contracts/bin/Debug/net9.0/Books.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Contracts/bin/Debug/net9.0/Books.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Contracts/bin/Debug/net9.0/Books.Contracts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/Books.Contracts.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/Books.Contracts.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/Books.Contracts.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/Books.Contracts.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/Books.Contracts.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/Books.Contracts.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/Books.Contracts.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/Books.Contracts.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/Books.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/Books.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/Books.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/Books.Contracts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/ref/Books.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/ref/Books.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/refint/Books.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Contracts/obj/Debug/net9.0/refint/Books.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Contracts/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Contracts/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books.Contracts/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Books.Contracts/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryAPI.sln" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryAPI.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +108,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tomervak&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tomervak/library-api.git&quot;,
+    &quot;accountId&quot;: &quot;f22fe4e4-06bf-43df-bd5b-7a4b8c12cfae&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/19cedadc466ea04eb7b826fb672e7c616df8a816a9db92de15ce72409992834/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -47,8 +145,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Launch Settings Profile.Books.API: http.executor": "Run",
+    "Docker.compose.yaml.db: Compose Deployment.executor": "Run",
+    "Docker.compose.yaml: Compose Deployment.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -56,7 +157,13 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Books.API: http">
@@ -90,6 +197,69 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Books.API/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="books.api" />
+          <option name="containerName" value="books.api" />
+          <option name="contextFolderPath" value="C:\Projects\library\LibraryAPI" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8080" />
+                <option name="hostIp" value="127.0.0.1" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Books.API/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compose.yaml.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.compose.yaml.db: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -103,6 +273,9 @@
       <workItem from="1752991570975" duration="10429000" />
       <workItem from="1753008560101" duration="4621000" />
       <workItem from="1753015624044" duration="3342000" />
+      <workItem from="1753080305418" duration="2598000" />
+      <workItem from="1753084590452" duration="17252000" />
+      <workItem from="1753167312137" duration="13032000" />
     </task>
     <servers />
   </component>
@@ -129,6 +302,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Books.API/Controllers/BookController.cs</url>
+          <line>32</line>
+          <properties documentPath="C:\Projects\library\LibraryAPI\Books.API\Controllers\BookController.cs" containingFunctionPresentation="Method 'GetAll'">
+            <startOffsets>
+              <option value="842" />
+            </startOffsets>
+            <endOffsets>
+              <option value="886" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
